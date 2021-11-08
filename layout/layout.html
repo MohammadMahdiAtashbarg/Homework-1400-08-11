@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>بسم الله الرحمن الرحیم</h1>
+  <p class="myresume"><b>روزمه من</b></p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h1 class="desh">مشخصات</h2>
+    <img class="mypic" src="img/MyPic.jpg" alt="Me">
+    <p id="des1">محمد مهدی آتش برگ</p>
+    <p  id="des1">تاریخ تولد:1380/12/22</p>
+    <p id="des1">ساکن:استان البرز-کرج</p>
+  </div>
+  
+  <div class="column">
+    <h2 class="workh">زمینه کاری</h2>
+    <p class="pwork">برنامه نویسی</p>
+    <ul class="ulwork">
+        <li>#C</li>
+        <li>Html</li>
+        <li>Css</li>
+    </ul>
+ 
+  </div>
+  
+  <div class="column">
+    <h2 class="tahsilath">تحصیلات</h2>
+    <p class="tahsilatp1">دیپلم نرم  افزار</p>
+    <p class="tahsilatp2">دانشجوی ترم سوم کاردانی نرم افزار از دانشکده شهید شمسی پور</p>
+  </div>
+</div>
+
+<fieldset id="fieldsettable">
+
+
+    <legend id="leg">فرم ثبت اطلاعات</legend>
+    <form action="#" method="POST">
+        <table id="t1">
+            <tr>
+                <td>
+                    <label>نام کاربری :</label>
+                </td>
+                <td>
+                    <input type="text" maxlength="10" size="50" placeholder="نام کاربری خودرا وارد کنید"
+                        tabindex="1">
+                </td>
+            </tr>
+            <tr>
+                <td><label>رمز عبور :</label></td>
+                <td>
+                    <input type="password" size="50" placeholder=" رمز عبور خودرا وارد کنید" tabindex="2">
+                </td>
+            </tr>
+            <tr>
+                <td><label>ایمیل :</label></td>
+                <td>
+                    <input type="email" size="50" placeholder=" ایمیل خودرا وارد کنید" tabindex="3">
+                </td>
+            </tr>
+            <tr>
+                <td><label>شماره تماس :</label></td>
+                <td>
+                    <input type="tel" size="50" placeholder=" شماره تماس خودرا وارد کنید" tabindex="4">
+                </td>
+            </tr>
+            <tr>
+                <td><label>پروژه مورد نیاز :</label></td>
+                <td>
+
+                    <select tabindex="5">
+                        <option>طراحی وب</option>
+                        <option>تحت ویندوز</option>
+                        <option selected>گرافیک</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>توضیحات اضافی</label></td>
+                <td>
+                    <textarea rows="5" placeholder="توضیحات" tabindex="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input class="s1" type="submit" value="ثبت اطلاعات" tabindex="6" >
+                    <input id="r1" type="reset" value="تنظیم مجدد" tabindex="7">
+                </td>
+            </tr>
+
+
+        </table>
+        
+        
+    </form>
+</fieldset>
+
+</body>
+</body>
+</html>

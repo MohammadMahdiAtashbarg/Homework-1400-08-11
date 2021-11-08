@@ -1,0 +1,116 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("/layout/img/bgimage.jpg");
+  margin: 0;
+  background-color: white;
+  direction: rtl;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+h1{
+    font-family: Calibri;
+    color: orange;
+}
+.myresume{
+    font-family: Calibri;
+    color: orange;
+}
+
+.tahsilath{
+    font-family: Calibri;
+    color: orange;
+}
+.tahsilatp1,.tahsilatp2{
+    font-family: Calibri;
+    color: orange;
+    font-size: 20px;
+}
+.desh{
+    font-family: Calibri;
+    color: orange
+}
+#des1{
+    font-family: Calibri;
+    color: orange;
+
+}
+
+.workh{
+    font-family: Calibri;
+    color: orange
+}
+.pwork{
+    font-family: Calibri;
+    color: orange;
+}
+.ulwork{
+    font-family: Calibri;
+    color: orange;
+}
+.mypic{
+      width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+#leg{
+    color: #FFC745;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+#t1{
+    border:0px;
+    width: 500px;
+}
+#fieldsettable{
+    color: chocolate;
+}
+.s1{
+    opacity: 0.5;
+    border-radius: 8px;
+    background-color:white;
+    cursor: pointer;
+}
+.s1:hover{
+    opacity: 1;
+     background-color: lime;
+
+}
+#r1{
+    opacity: 0.5;
+    border-radius: 8px;
+    background-color:white;
+    cursor: pointer; 
+}
+#r1:hover{
+    opacity: 1;
+    background-color: red;
+}
+
